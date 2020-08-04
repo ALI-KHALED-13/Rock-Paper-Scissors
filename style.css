@@ -1,0 +1,47 @@
+* {
+    text-align: center;
+}
+hr {width: 80%;}
+button {
+    display: block;
+    margin: 10px auto;
+    cursor: pointer;
+    padding: 1%;
+  }
+#result {
+    background: rgb(174, 245, 174);
+    width: 60%;
+    margin: auto;
+    padding: 2%;
+}
+#clear {
+    padding: 2%;
+    background-color: lightblue;
+    color: rgba(22, 37, 255, 0.692);
+    border: none;
+    border-radius: 10%;
+    font-size: 1.2rem
+}
+li {
+    font-size: 1.5rem;
+    color: rgb(21, 133, 50);
+    margin: 3% 1%;
+}
+
+div.container {
+  width: 80%;
+  height: 100px;
+  max-height: auto;
+  margin: auto;
+}
+img {
+    max-width: 100%;
+    width: 25%;
+    height: 250px;
+}
+#left {
+    float: left;
+}
+#right {
+    float: right;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+  <head>
+      <link rel='stylesheet' href='style.css'>
+      <script src='script.js' defer></script>
+      <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+      <title>my first js game</title>
+  </head>
+
+  <body>
+    <h1>
+    Rock, paper, scissors
+    </h1>
+    <h3>make your choice and see if you can beat the computer, you are on the right side</h3> <hr>
+
+    <div class='container'>
+    <img alt='human-neutral' src='media/neutralhum.jpg' id='right'>
+    <img alt='human-neutral' src='media/neutralcomp.jpg' id='left'>
+
+    </div>
+
+    <button type='button' onclick="decide('rock')">Rock </button>
+    <button type='button' onclick="decide('paper')">Paper </button>
+    <button type='button' onclick="decide('scissor')">Scisor</button>
+
+    <button type='button' id ='clear' onclick='clearIt()'> clear past results </button>
+
+    <div id='result'>
+      
+    
+    </div>
+    <div style="width:65%; margin:auto;">
+      <img alt='never Mind' src='media/forFun.gif' style='width:100%; max-width:100%; height:auto; margin-top: 5px;'>
+    </div>
+
+  </body>
+
+
+</html>
